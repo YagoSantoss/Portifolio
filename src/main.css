@@ -477,6 +477,10 @@ footer {
         align-items: center;
     }
 
+    .hero-image {
+        margin-top: 0;
+    }
+
     .description {
         margin: 0 auto 1.5rem;
     }
