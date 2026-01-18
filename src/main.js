@@ -88,3 +88,14 @@ function esconderCard(card) {
 function toggleMenu() {
     document.querySelector("nav ul").classList.toggle("active");
 }
+
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('nav ul');
+const menuLinks = document.querySelectorAll('nav ul li a');
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        menuToggle.classList.remove('active');
+    });
+});
