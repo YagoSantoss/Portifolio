@@ -459,7 +459,6 @@ footer {
         font-size: 2.5rem;
     }
 
-
     nav ul {
         display: none; 
     }
@@ -467,7 +466,7 @@ footer {
     .hero {
         flex-direction: column-reverse;
         text-align: center;
-        padding: 110px 0 20px 0;
+        padding: 140px 0 20px 0;
         min-height: auto;
     }
 
@@ -475,10 +474,6 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .hero-image {
-        margin-top: 0;
     }
 
     .description {
@@ -525,6 +520,11 @@ footer {
         padding-top: 10px;
         width: 100%;
         text-align: center;
+    }
+
+    /* CORREÇÃO DEFINITIVA DO HEADER TAMPANDO A FOTO */
+    .hero-image {
+        margin-top: 0;
     }
 }
 
