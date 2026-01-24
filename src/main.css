@@ -463,6 +463,10 @@ footer {
         display: none; 
     }
 
+    nav ul.active {
+        display: flex;
+    }
+
     .hero {
         flex-direction: column-reverse;
         text-align: center;
