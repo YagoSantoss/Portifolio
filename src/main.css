@@ -171,7 +171,7 @@ h1 {
     background: var(--primary-color);
     border-radius: 50%;
     overflow: hidden;
-    border: 8px solid #a0c1ff;;
+    border: 8px solid #a0c1ff;
 }
 
 .circle-bg img {
@@ -614,4 +614,9 @@ footer {
     height: 40px;
     object-fit: contain;
     filter: brightness(0.9);
+}
+
+.cert-card-bento {
+    text-decoration: none;
+    color: inherit;
 }
